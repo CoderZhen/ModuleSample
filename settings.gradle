@@ -1,1 +1,1 @@
-include ':App'
+include ':App', ':BaseComponent', ':CommonBusiness', ':BaseLibrary', ':Module_Home', ':Module_Find', ':Module_User', ':Module_Main'
