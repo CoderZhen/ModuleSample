@@ -11,6 +11,9 @@ import com.zhen.module_user.UserDelegate;
 
 import java.util.LinkedHashMap;
 
+import me.yokeyword.fragmentation.anim.DefaultNoAnimator;
+import me.yokeyword.fragmentation.anim.FragmentAnimator;
+
 @Route(path = RouteUtils.MAIN)
 public class MainDelegate extends BottomMainDelegate {
 
@@ -36,5 +39,10 @@ public class MainDelegate extends BottomMainDelegate {
     @Override
     protected int setCurrentDelegate() {
         return 0;
+    }
+
+    @Override
+    public FragmentAnimator onCreateFragmentAnimator() {
+        return new DefaultNoAnimator();
     }
 }
