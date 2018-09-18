@@ -5,9 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 
-import com.alibaba.android.arouter.launcher.ARouter;
-import com.zhen.basecomponent.base.Delegate;
-import com.zhen.basecomponent.bottom.BottomItemDelegate;
+import com.zhen.basecomponent.delegate.bottom.BottomItemDelegate;
 import com.zhen.basecomponent.utils.RouteUtils;
 
 public class UserDelegate extends BottomItemDelegate implements View.OnClickListener {

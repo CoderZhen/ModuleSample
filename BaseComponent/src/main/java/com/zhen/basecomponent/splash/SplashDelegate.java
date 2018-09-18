@@ -2,16 +2,13 @@ package com.zhen.basecomponent.splash;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatImageView;
 import android.view.View;
 
-import com.alibaba.android.arouter.facade.annotation.Route;
-import com.alibaba.android.arouter.launcher.ARouter;
 import com.zhen.basecomponent.R;
-import com.zhen.basecomponent.base.Delegate;
+import com.zhen.basecomponent.delegate.base.Delegate;
 import com.zhen.basecomponent.utils.RouteUtils;
 import com.zhen.baselibrary.datasource.preference.PreferencesManage;
 
@@ -22,7 +19,6 @@ import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 

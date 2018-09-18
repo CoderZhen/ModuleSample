@@ -4,8 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
-import com.zhen.basecomponent.base.Delegate;
-import com.zhen.basecomponent.bottom.BottomItemDelegate;
+import com.zhen.basecomponent.delegate.bottom.BottomItemDelegate;
 
 public class FindDelegate extends BottomItemDelegate {
     @Override

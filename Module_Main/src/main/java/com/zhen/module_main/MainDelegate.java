@@ -1,9 +1,9 @@
 package com.zhen.module_main;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.zhen.basecomponent.bean.BottomTabBean;
-import com.zhen.basecomponent.bottom.BottomItemDelegate;
-import com.zhen.basecomponent.bottom.BottomMainDelegate;
+import com.zhen.basecomponent.delegate.bean.BottomTabBean;
+import com.zhen.basecomponent.delegate.bottom.BottomItemDelegate;
+import com.zhen.basecomponent.delegate.bottom.BottomMainDelegate;
 import com.zhen.basecomponent.utils.RouteUtils;
 import com.zhen.module_find.FindDelegate;
 import com.zhen.module_home.HomeDelegate;

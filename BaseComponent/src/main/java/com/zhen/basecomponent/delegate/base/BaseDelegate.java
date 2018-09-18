@@ -1,4 +1,4 @@
-package com.zhen.basecomponent.base;
+package com.zhen.basecomponent.delegate.base;
 
 import android.app.Activity;
 import android.os.Bundle;

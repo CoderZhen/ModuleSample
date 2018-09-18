@@ -1,4 +1,4 @@
-package com.zhen.basecomponent.bean;
+package com.zhen.basecomponent.delegate.bean;
 
 public class BottomTabBean {
     private String title;

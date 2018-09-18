@@ -1,9 +1,9 @@
-package com.zhen.basecomponent.bottom;
+package com.zhen.basecomponent.delegate.bottom;
 
 import android.widget.Toast;
 
 import com.zhen.basecomponent.R;
-import com.zhen.basecomponent.base.Delegate;
+import com.zhen.basecomponent.delegate.base.Delegate;
 
 public abstract class BottomItemDelegate extends Delegate{
 

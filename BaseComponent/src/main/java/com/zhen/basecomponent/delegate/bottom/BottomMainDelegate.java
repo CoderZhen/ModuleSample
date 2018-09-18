@@ -1,4 +1,4 @@
-package com.zhen.basecomponent.bottom;
+package com.zhen.basecomponent.delegate.bottom;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import com.zhen.basecomponent.R;
-import com.zhen.basecomponent.base.Delegate;
-import com.zhen.basecomponent.bean.BottomTabBean;
+import com.zhen.basecomponent.delegate.base.Delegate;
+import com.zhen.basecomponent.delegate.bean.BottomTabBean;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

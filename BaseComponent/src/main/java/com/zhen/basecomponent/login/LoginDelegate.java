@@ -8,13 +8,11 @@ import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.zhen.basecomponent.R;
-import com.zhen.basecomponent.base.Delegate;
+import com.zhen.basecomponent.delegate.base.Delegate;
 import com.zhen.basecomponent.utils.RouteUtils;
 import com.zhen.baselibrary.datasource.preference.PreferencesManage;
 
 import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
-import me.yokeyword.fragmentation.anim.DefaultNoAnimator;
-import me.yokeyword.fragmentation.anim.DefaultVerticalAnimator;
 import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
 @Route(path = RouteUtils.LOGIN)

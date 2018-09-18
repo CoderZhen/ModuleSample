@@ -1,7 +1,7 @@
 package com.zhen.basecomponent.utils;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.zhen.basecomponent.base.BaseDelegate;
+import com.zhen.basecomponent.delegate.base.BaseDelegate;
 
 public class RouteUtils {
 

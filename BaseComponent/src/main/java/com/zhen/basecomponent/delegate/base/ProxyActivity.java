@@ -1,4 +1,4 @@
-package com.zhen.basecomponent.base;
+package com.zhen.basecomponent.delegate.base;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
